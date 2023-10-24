@@ -1,11 +1,9 @@
 <html>
 <body>
-<h2 align="center">Registrar Empleado</h2>
-<h3 align="center">Gestionar Empleado</h3>
-<form action="ControladorServlet.java">
-
-
-</form>
-
+<h3 align="center">Gestion Auto</h3>
+<!-- Invocamos al servlet -->
+<h1>Autos</h1>
+<!-- invocamos al servlet... -->
+	<a href="ControladorServlet" style="text-decoration:none">Gestionar Auto</a>
 </body>
 </html>

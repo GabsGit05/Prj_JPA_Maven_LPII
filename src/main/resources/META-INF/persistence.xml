@@ -2,13 +2,13 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="BDAutoJPA">
 		<class>model.TblAuto</class>
-		<class>model.TblCliente</class>
-		<class>model.TblEmpleado</class>
-		<class>model.TblUsuario</class>
 		<class>model.TblCategoria</class>
-		<class>model.TblProducto</class>
+		<class>model.TblCliente</class>
 		<class>model.TblDocumento</class>
+		<class>model.TblEmpleado</class>
+		<class>model.TblProducto</class>
 		<class>model.TblTipodocumento</class>
+		<class>model.TblUsuario</class>
 		
 		<!-- propiedades o configuración de la conexión -->
 		<properties>

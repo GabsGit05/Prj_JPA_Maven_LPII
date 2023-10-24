@@ -31,10 +31,7 @@ public class TblDocumento implements Serializable {
 	private String rucdocument;
 
 	//bi-directional many-to-one association to TblTipodocumento
-	//
-	//El siguiente codigo, nos va a permitir hacer un CRUD
-	//Fetch => Nos permitira hacer listados tanto en productos como categoria
-	@ManyToOne//(optional=false,cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+	@ManyToOne
 	@JoinColumn(name="idtipodocum")
 	private TblTipodocumento tblTipodocumento;
 

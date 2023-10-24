@@ -31,10 +31,8 @@ public class TblProducto implements Serializable {
 	private double precio;
 
 	//bi-directional many-to-one association to TblCategoria
-	//El siguiente codigo, nos va a permitir hacer un CRUD
-	//Fetch => Nos permitira hacer listados tanto en productos como categoria
-	@ManyToOne(optional=false,cascade=CascadeType.ALL,fetch=FetchType.EAGER)
-	@JoinColumn(name="idcategoria")											
+	@ManyToOne
+	@JoinColumn(name="idcategoria")
 	private TblCategoria tblCategoria;
 
 	public TblProducto() {
